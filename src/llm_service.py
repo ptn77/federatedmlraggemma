@@ -22,7 +22,6 @@ app_pipeline = pipeline(
 
 # Endpoint to generate text
 
-
 @app.route("/generate_text", methods=["POST"])
 def generate_text():
     data = request.json
